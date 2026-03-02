@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/End2End_Classification_Pipeline/mlruns/159979552649322123/b79b9221d29d4e4d9dee89a278295efd/artifacts
+end_time: 1771618293577
+entry_point_name: ''
+experiment_id: '159979552649322123'
+lifecycle_stage: active
+run_id: b79b9221d29d4e4d9dee89a278295efd
+run_name: popular-swan-958
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1771618289403
+status: 3
+tags: []
+user_id: rahma

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/End2End_Classification_Pipeline/mlruns/159979552649322123/models/m-203ca018a65844da80e2d982eb4e1b50/artifacts
+creation_timestamp: 1771616213152
+experiment_id: '159979552649322123'
+last_updated_timestamp: 1771616216637
+model_id: m-203ca018a65844da80e2d982eb4e1b50
+model_type: null
+name: rf_model
+source_run_id: 37cc7b94fb0c4fe0aad3a1012bb29240
+status: 2
+status_message: null
