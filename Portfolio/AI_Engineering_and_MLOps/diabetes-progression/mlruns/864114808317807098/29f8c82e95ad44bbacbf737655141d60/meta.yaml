@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/29f8c82e95ad44bbacbf737655141d60/artifacts
+end_time: 1772488279894
+entry_point_name: ''
+experiment_id: '864114808317807098'
+lifecycle_stage: active
+run_id: 29f8c82e95ad44bbacbf737655141d60
+run_name: XGBoost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772488276027
+status: 3
+tags: []
+user_id: rahma

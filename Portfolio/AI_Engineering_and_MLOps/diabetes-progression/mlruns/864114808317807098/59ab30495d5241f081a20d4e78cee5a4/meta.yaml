@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/59ab30495d5241f081a20d4e78cee5a4/artifacts
+end_time: 1772487590269
+entry_point_name: ''
+experiment_id: '864114808317807098'
+lifecycle_stage: active
+run_id: 59ab30495d5241f081a20d4e78cee5a4
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772487586385
+status: 3
+tags: []
+user_id: rahma

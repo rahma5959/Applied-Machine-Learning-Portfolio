@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/c1217f4b86444420ac8a38a9332fa9fb/artifacts
+end_time: 1772487580992
+entry_point_name: ''
+experiment_id: '864114808317807098'
+lifecycle_stage: active
+run_id: c1217f4b86444420ac8a38a9332fa9fb
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772487576609
+status: 3
+tags: []
+user_id: rahma

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/models/m-0c9109536cd74dffb4c954f06abe2407/artifacts
+creation_timestamp: 1772488682132
+experiment_id: '864114808317807098'
+last_updated_timestamp: 1772488684901
+model_id: m-0c9109536cd74dffb4c954f06abe2407
+model_type: null
+name: model
+source_run_id: f2bf72d1263449508e807211ebe9adef
+status: 2
+status_message: null

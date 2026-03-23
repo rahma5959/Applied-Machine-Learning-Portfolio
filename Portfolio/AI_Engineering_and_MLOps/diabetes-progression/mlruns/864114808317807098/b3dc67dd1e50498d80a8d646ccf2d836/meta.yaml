@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/b3dc67dd1e50498d80a8d646ccf2d836/artifacts
+end_time: 1772488464214
+entry_point_name: ''
+experiment_id: '864114808317807098'
+lifecycle_stage: active
+run_id: b3dc67dd1e50498d80a8d646ccf2d836
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772488460666
+status: 3
+tags: []
+user_id: rahma

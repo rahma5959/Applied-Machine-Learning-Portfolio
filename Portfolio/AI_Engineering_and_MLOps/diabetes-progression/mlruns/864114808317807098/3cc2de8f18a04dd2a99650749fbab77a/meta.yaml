@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/3cc2de8f18a04dd2a99650749fbab77a/artifacts
+end_time: 1772488681938
+entry_point_name: ''
+experiment_id: '864114808317807098'
+lifecycle_stage: active
+run_id: 3cc2de8f18a04dd2a99650749fbab77a
+run_name: Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772488679166
+status: 3
+tags: []
+user_id: rahma
