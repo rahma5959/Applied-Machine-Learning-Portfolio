@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/LungRegionSegmentation/mlruns/291622815388481011/64c120bbf76340baa587c2d1fbe5b326/artifacts
+end_time: 1774299661385
+entry_point_name: ''
+experiment_id: '291622815388481011'
+lifecycle_stage: active
+run_id: 64c120bbf76340baa587c2d1fbe5b326
+run_name: smiling-mole-798
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1774299661300
+status: 3
+tags: []
+user_id: rahma
