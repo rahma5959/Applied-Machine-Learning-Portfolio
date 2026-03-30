@@ -1,0 +1,15 @@
+# Ignore datasets (large files, not suitable for Git)
+datasets/
+
+# Ignore trained models and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
