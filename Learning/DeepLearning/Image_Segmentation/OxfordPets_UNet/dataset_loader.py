@@ -75,18 +75,18 @@ if __name__=="__main__":
 
     # train/val
     train_dataset = OxfordPetsDataset(
-        txt_file="datasets/OxfordPets/annotations/annotations/trainval.txt",
-        images_dir="datasets/OxfordPets/images/images",
-        masks_dir="datasets/OxfordPets/masks_binary",
+        txt_file="../../../datasets/OxfordPets/annotations/annotations/trainval.txt",
+        images_dir="../../../datasets/OxfordPets/images/images",
+        masks_dir="../../../datasets/OxfordPets/masks_binary",
         img_size=(256,256),
         augment=True
     )
 
     # test
     test_dataset = OxfordPetsDataset(
-        txt_file="datasets/OxfordPets/annotations/annotations/test.txt",
-        images_dir="datasets/OxfordPets/images/images",
-        masks_dir="datasets/OxfordPets/masks_binary",
+        txt_file="../../../datasets/OxfordPets/annotations/annotations/test.txt",
+        images_dir="../../../datasets/OxfordPets/images/images",
+        masks_dir="../../../datasets/OxfordPets/masks_binary",
         img_size=(256,256),
         augment=False
     )
