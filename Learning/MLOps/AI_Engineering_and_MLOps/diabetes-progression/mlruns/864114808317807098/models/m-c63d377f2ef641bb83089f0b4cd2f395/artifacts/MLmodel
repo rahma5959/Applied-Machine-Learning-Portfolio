@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/rahma/Portfolio_IA/Portfolio/AI_Engineering_and_MLOps/diabetes-progression/mlruns/864114808317807098/models/m-c63d377f2ef641bb83089f0b4cd2f395/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.4
+model_id: m-c63d377f2ef641bb83089f0b4cd2f395
+model_size_bytes: 2757139
+model_uuid: m-c63d377f2ef641bb83089f0b4cd2f395
+prompts: null
+run_id: f9896b4d18da40259516de5713d10ac6
+utc_time_created: '2026-03-02 22:00:05.997161'

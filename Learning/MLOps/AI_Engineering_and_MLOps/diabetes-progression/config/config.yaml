@@ -1,0 +1,3 @@
+paths:
+  model_path: "models/best_model.pkl"
+  scaler_path: "models/scaler.pkl"

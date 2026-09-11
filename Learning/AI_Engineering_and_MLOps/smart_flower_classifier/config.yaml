@@ -1,9 +1,0 @@
-experiment_name: "Iris_Classification"
-
-model:
-  n_estimators: 50
-  max_depth: 3
-
-data:
-  test_size: 0.3
-  random_state: 7
