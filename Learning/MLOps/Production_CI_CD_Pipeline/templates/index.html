@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Segmentation</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>Image Segmentation</h1>
+
+    <form action="/segment" method="POST" enctype="multipart/form-data">
+
+        <p>Select an image:</p>
+
+        <input type="file" name="image" accept="image/*">
+
+        <br>
+
+        <button type="submit">Segment image</button>
+
+    </form>
+
+
+    {% if uploaded_image %}
+
+        <h2>Original image</h2>
+
+        <img
+            src="{{ url_for('static', filename=uploaded_image) }}"
+            alt="Original uploaded image"
+        >
+
+
+        <h2>Segmentation result</h2>
+
+        {% if segmentation_result %}
+
+            <img
+                src="{{ url_for('static', filename=segmentation_result) }}"
+                alt="Segmentation result"
+            >
+
+        {% endif %}
+
+
+        <h2>Segmentation mask</h2>
+
+        <img
+            src="{{ url_for('static', filename='mask.png') }}"
+            alt="Segmentation mask"
+        >
+
+    {% endif %}
+
+</body>
+</html>
+

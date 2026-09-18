@@ -1,0 +1,61 @@
+pipeline {
+    agent any
+    
+    environment {
+        DOCKER_IMAGE = 'segmentation-app'
+        DOCKER_TAG = 'latest'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    docker.build("${DOCKER_IMAGE}:${DOCKER_TAG}")
+                }
+            }
+        }
+        
+        stage('Run Tests') {
+            steps {
+                script {
+                    docker.image("${DOCKER_IMAGE}:${DOCKER_TAG}").inside {
+                        sh 'pytest tests/ -v'
+                    }
+                }
+            }
+        }
+        
+        stage('Deploy Application') {
+            steps {
+                script {
+                    // Stop and remove existing container if it exists
+                    sh '''
+                        docker stop segmentation-app-container || true
+                        docker rm segmentation-app-container || true
+                    '''
+                    
+                    // Run new container
+                    docker.image("${DOCKER_IMAGE}:${DOCKER_TAG}").run('-p 5000:5000 --name segmentation-app-container')
+                }
+            }
+        }
+    }
+    
+    post {
+        always {
+            echo 'Pipeline completed'
+        }
+        success {
+            echo 'Pipeline succeeded! Application is running on http://localhost:5000'
+        }
+        failure {
+            echo 'Pipeline failed! Check the logs for details.'
+        }
+    }
+}
