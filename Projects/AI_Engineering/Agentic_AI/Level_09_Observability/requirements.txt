@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+langsmith
+python-dotenv
+prometheus-fastapi-instrumentator

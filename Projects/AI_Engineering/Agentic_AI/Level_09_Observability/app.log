@@ -1,0 +1,16 @@
+2026-10-06 14:08:45,344 - INFO - Error test endpoint started
+2026-10-06 14:08:45,344 - ERROR - An error occurred: division by zero
+2026-10-06 14:20:30,128 - INFO - Request started | id=64ce0b40-f613-4e33-9d6d-4f50ce29108e | method=GET | path=/
+2026-10-06 14:20:30,144 - INFO - Home endpoint called
+2026-10-06 14:20:30,144 - INFO - Home endpoint completed in 0.0000 seconds
+2026-10-06 14:20:30,144 - INFO - Request completed | id=64ce0b40-f613-4e33-9d6d-4f50ce29108e | status=200 | time=0.0158s
+2026-10-09 10:22:01,502 - INFO - Request started | id=f549f5ad-2d1f-47ec-bac5-b66e1ce8cfa0 | method=GET | path=/
+2026-10-09 10:22:01,509 - INFO - Home endpoint called
+2026-10-09 10:22:01,509 - INFO - Home endpoint completed in 0.0000 seconds
+2026-10-09 10:22:01,512 - INFO - Request completed | id=f549f5ad-2d1f-47ec-bac5-b66e1ce8cfa0 | status=200 | time=0.0095s
+2026-10-09 10:22:39,802 - INFO - Request started | id=6ffb51d4-5a55-4da5-8d2d-23f72f20a66e | method=GET | path=/error
+2026-10-09 10:22:39,804 - INFO - Error test endpoint started
+2026-10-09 10:22:39,804 - ERROR - An error occurred: division by zero
+2026-10-09 10:22:39,804 - INFO - Request completed | id=6ffb51d4-5a55-4da5-8d2d-23f72f20a66e | status=200 | time=0.0029s
+2026-10-12 10:52:22,825 - INFO - Request started | id=c4705b53-5b9d-403b-b239-ccdd1eea08aa | method=GET | path=/metrics
+2026-10-12 10:52:22,830 - INFO - Request completed | id=c4705b53-5b9d-403b-b239-ccdd1eea08aa | status=200 | time=0.0051s
