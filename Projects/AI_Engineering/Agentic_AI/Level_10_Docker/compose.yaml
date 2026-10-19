@@ -1,0 +1,6 @@
+services:
+  api:
+    build: .
+    container_name: level10-api-compose
+    ports:
+      - "8000:8000"
